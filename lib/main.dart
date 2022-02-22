@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:notes_app/notePage.dart';
 
 import 'homePage.dart';
+import 'noteCard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const NotePage(),
+      home: const NoteCard(),
     );
   }
 }
